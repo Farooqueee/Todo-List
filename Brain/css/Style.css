@@ -144,3 +144,27 @@ button:hover {
     color: white;
     border-color: #667eea;
 }
+
+@media (max-width: 500px) {
+    .input-section {
+        flex-direction: column;
+    }
+
+    .input-section input[type="text"],
+    .input-section button {
+        width: 100%;
+    }
+
+    .input-section button {
+        margin-top: 10px;
+    }
+}
+@media (max-width: 400px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .container {
+        padding: 1rem;
+    }
+}
